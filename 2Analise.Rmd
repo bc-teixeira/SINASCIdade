@@ -1,0 +1,31 @@
+---
+title: "R Notebook"
+output: 
+  html_notebook: 
+    code_folding: hide
+---
+
+```{r fig.height=7, fig.width=10}
+library(tidyverse)
+library(gtsummary)
+
+load(file = "SINASC.RData")
+
+idadesmap <- SINASCcons %>% 
+  filter(IDADEMAE <55, !is.na(GRPANO)) %>% 
+  group_by(IDADEMAE, GRPANO, QTDFILVIVOfct) %>% 
+  summarise(NASC = sum(NASC, na.rm = TRUE)) %>% 
+  ggplot(aes(x = IDADEMAE, y = NASC)) +
+  geom_col() +
+  facet_grid(rows = vars(QTDFILVIVOfct), cols = vars(GRPANO)) +
+  theme_classic() +
+  scale_y_continuous(name="Nascimentos", labels = scales::comma)+
+  scale_x_continuous(n.breaks = 55)+
+  theme(axis.text.x = element_text(size = 5),
+        panel.grid.major.x = element_line(colour = "grey90", size = 0.5)) +
+  labs(y = "Idade da Mãe")
+
+idadesmap
+
+```
+

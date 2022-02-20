@@ -1,0 +1,29 @@
+codigo_uf;Regiao;estado_abre;Estados;region;nonaem
+53;Centro Oeste;DF;Distrito Federal;Mid-West;no
+52;Centro Oeste;GO;Goiás;Mid-West;em
+50;Centro Oeste;MS;Mato Grosso do Sul;Mid-West;no
+51;Centro Oeste;MT;Mato Grosso;Mid-West;no
+27;Nordeste;AL;Alagoas;Northeast;em
+29;Nordeste;BA;Bahia;Northeast;na
+23;Nordeste;CE;Ceará;Northeast;no
+21;Nordeste;MA;Maranhão;Northeast;no
+25;Nordeste;PB;Paraíba;Northeast;na
+26;Nordeste;PE;Pernambuco;Northeast;em
+22;Nordeste;PI;Piauí;Northeast;no
+24;Nordeste;RN;Rio Grande do Norte;Northeast;no
+28;Nordeste;SE;Sergipe;Northeast;em
+12;Norte;AC;Acre;North;no
+13;Norte;AM;Amazonas;North;no
+16;Norte;AP;Amapá;North;no
+15;Norte;PA;Pará;North;no
+11;Norte;RO;Rondônia;North;em
+14;Norte;RR;Roraima;North;em
+17;Norte;TO;Tocantins;North;em
+32;Sudeste;ES;Espírito Santo;Southeast;no
+31;Sudeste;MG;Minas Gerais;Southeast;em
+33;Sudeste;RJ;Rio de Janeiro;Southeast;no
+35;Sudeste;SP;São Paulo;Southeast;em
+41;Sul;PR;Paraná;South;no
+43;Sul;RS;Rio Grande do Sul;South;no
+42;Sul;SC;Santa Catarina;South;em
+56;Todas;BR;Brasil;All;no
